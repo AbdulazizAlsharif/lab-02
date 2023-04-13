@@ -19,7 +19,6 @@ jobs:
       # Upload coverage to codecov.
       # CodeCov token must be stored as an environment variable in CircleCI dashboard.
       - codecov/upload
-
 workflow:
   version: 2.1
   build-test:
